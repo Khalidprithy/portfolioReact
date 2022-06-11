@@ -1,0 +1,112 @@
+[
+    {
+        "id": "6aca4716-0868-4d23-b1ae-6fe3bbf37620",
+        "name": "Toolsegy",
+        "details": "Warehouse Management Application. It is a warehouse management application built with React. I have also made the server-side with NodeJS and MongoDB. I have used Tailwind and DaizyUI to design this application. I found this combination is flexible and productive. It also offers the flexibility to customize in the future.",
+        "image": "https://i.ibb.co/TbcHfRy/Toolsegy.png",
+        "github_client": "https://github.com/Khalidprithy/Toolsegy-client",
+        "github_server": "https://github.com/Khalidprithy/Toolsegy-server",
+        "live_site": "https://toolsegy-9e5ff.web.app/",
+        "features": "React.js, Tailwind, DaizyUI, React Router Dom, React Firebase hooks, Hot toast, React icons, React spinner animation, Node.js, Express.js, MongoDB",
+        "category": "Full-stack"
+    },
+    {
+        "id": "f67178f3-5cf1-45f3-9a0a-91bc64bcca6b",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "React.js, Node.js, Express.js, MongoDB",
+        "category": "Full-stack"
+    },
+    {
+        "id": "10142183-49e6-4bab-9496-275d751f8a3b",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "b5dea2c5-9a80-446d-92a3-9e9af0e534c9",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "fe30e4da-c0f8-4faa-a868-30891dded752",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "cc04b770-cfa7-468c-a3a6-59c4cbc1d742",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "7fc2b847-bbcf-4ba5-9b34-6e649ca1b8d2",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "5445832a-6354-4057-9bce-198ce2c539b8",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "7d94c5a6-e2e0-43a2-b160-66283b7ad3f3",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    },
+    {
+        "id": "dc366c12-6b9c-4272-8c49-ce14817c0cbc",
+        "name": "Modern & Minimal",
+        "details": "This is a react application for a clothing store to manage their products and sales. Bootstrap CSS framework is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook. I have used Node.js express and MongoDB for server site. The server site is hosted on Heroku.",
+        "image": "https://i.ibb.co/N70Wkn7/M-M.png",
+        "github_client": "https://github.com/Khalidprithy/inventory-menagement-client",
+        "github_server": "https://github.com/Khalidprithy/inventory-menagement-server",
+        "live_site": "https://inventory-management-app-679a4.web.app/",
+        "features": "Drama|Romance",
+        "category": "Sicamous"
+    }
+]

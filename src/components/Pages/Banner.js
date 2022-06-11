@@ -10,16 +10,16 @@ const Banner = () => {
 
 
     return (
-        <div class="md:min-h-screen h-96 mt-0 bg-primary">
-            <div class="hero-content text-center mx-auto">
-                <div class="max-w-md text-neutral">
+        <div className="h-96 mt-0 bg-primary">
+            <div className="hero-content text-center mx-auto">
+                <div className="max-w-md text-neutral">
                     <p>Hello There</p>
-                    <h1 class="text-8xl font-bold text-center">I'm Khalid</h1>
-                    <p class="py-6">Front-end Developer. React.js Developer</p>
-                    <button class="btn btn-sm btn-secondary text-white">Hire Me</button>
+                    <h1 className="text-8xl font-bold text-center">I'm Khalid</h1>
+                    <p className="py-6">Front-end Developer. React.js Developer</p>
+                    <button className="btn btn-sm btn-secondary text-white">Hire Me</button>
                     <button
                         onClick={handleLearnMore}
-                        class="btn btn-sm btn-accent text-white ml-2">Learn More</button>
+                        className="btn btn-sm btn-accent text-white ml-2">Learn More</button>
                 </div>
             </div>
         </div>

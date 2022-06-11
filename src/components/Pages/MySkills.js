@@ -6,11 +6,11 @@ import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
 
 const MySkills = () => {
     return (
-        <div class="min-h-screen mt-0 bg-primary">
-            <h1 class="text-5xl text-neutral mb-6 font-bold">My Skills</h1>
+        <div className="min-h-fit md:h-72 mt-0 bg-primary">
+            <h1 className="text-5xl text-neutral mb-6 font-bold">My Skills</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mx-4'>
-                <div class="card w-72 bg-neutral text-neutral-content mx-auto">
-                    <div class="card-body items-center text-center">
+                <div className="card w-72 md:w-52 bg-neutral text-neutral-content mx-auto">
+                    <div className="card-body items-center text-center">
                         <h2 className='text-xl font-bold'>Front-end</h2>
                         <div className='flex'>
                             <AiFillHtml5></AiFillHtml5>
@@ -25,8 +25,8 @@ const MySkills = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card w-72 bg-neutral text-neutral-content mx-auto">
-                    <div class="card-body items-center text-center">
+                <div className="card w-72 md:w-52 bg-neutral text-neutral-content mx-auto">
+                    <div className="card-body items-center text-center">
                         <h2 className='text-xl font-bold'>Back-end</h2>
                         <div className='flex'>
                             <DiNodejs></DiNodejs>
@@ -38,8 +38,8 @@ const MySkills = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card w-72 bg-neutral text-neutral-content mx-auto">
-                    <div class="card-body items-center text-center">
+                <div className="card w-72 md:w-52 bg-neutral text-neutral-content mx-auto">
+                    <div className="card-body items-center text-center">
                         <h2 className='text-xl font-bold'>Tools</h2>
                         <div className='flex'>
                             <SiVisualstudiocode></SiVisualstudiocode>
