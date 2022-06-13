@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     return (
-        <div className="card card-side w-fit bg-primary text-white rounded-md">
+        <div className="card card-side w-fit bg-primary mx-auto text-white rounded-md">
             <div class="container max-w-md mx-auto md:px-6 px-4 my-4">
 
                 <div class="border bg-cyan-900 bg-opacity-25 rounded-lg p-6 text-gray-100 relative z-10">

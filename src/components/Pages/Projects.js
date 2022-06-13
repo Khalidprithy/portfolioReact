@@ -16,7 +16,7 @@ const Projects = () => {
     return (
         <div className='bg-primary'>
             <h4 className='text-xl font-bold text-center text-neutral'>My All Projects</h4>
-            <div className='flex flex-wrap justify-center items-center mt-6 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 mt-6 '>
                 {
                     projects.map(project => <Project
                         key={project.id}
