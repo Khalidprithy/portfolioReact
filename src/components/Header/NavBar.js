@@ -15,6 +15,7 @@ const NavBar = () => {
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-8 p-2 shadow bg-accent rounded-box w-52">
                         <li className='text-base-100 text-xl'><Link to='/home'>Home</Link></li>
                         <li className='text-base-100 text-xl'><Link to='/projects'>Projects</Link></li>
+                        <li className='text-base-100 text-xl'><Link to='/blog'>Blog</Link></li>
                         <li className='text-base-100 text-xl'><Link to='/about'>About</Link></li>
                         <div className='flex'>
                             <a href='https://github.com/Khalidprithy' target="_blank" rel="noreferrer"> <AiFillGithub className='text-4xl text-black mr-2 block md:hidden'></AiFillGithub>
