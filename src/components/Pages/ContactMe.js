@@ -1,6 +1,20 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const ContactMe = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_yjyfszl', 'template_l26d6fj', form.current, '9CH62NioqIjo3L1fc')
+            .then((result) => {
+                toast.success('Email sent successfully')
+            }, (error) => {
+                toast.error('Could not sent Email, Try again')
+            });
+    };
 
     return (
         <div className="bg-primary min-h-full pt-10 grid grid-cols-1 md:grid-cols-2 ">
@@ -10,28 +24,20 @@ const ContactMe = () => {
             </div>
             <div className="card md:w-96 flex-shrink-0 mx-auto px-4 m-4 shadow-2xl bg-neutral">
                 <div className="card-body">
-                    <form >
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Name</span>
-                            </label>
-                            <input type="text" id='name' placeholder="Your Name" className="input input-bordered" required />
+                    <form ref={form} onSubmit={sendEmail}>
+                        <div className='flex my-2'>
+                            <label className='font-bold mr-2'>Name</label>
+                            <input className='rounded-md px-3' type="text" name="user_name" />
                         </div>
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Email</span>
-                            </label>
-                            <input type="email" id='email' placeholder="Your Email" className="input input-bordered" required />
+                        <div className='flex my-2'>
+                            <label className='font-bold mr-3'>Email</label>
+                            <input className='rounded-md px-3' type="email" name="user_email" />
                         </div>
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Message</span>
-                            </label>
-                            <textarea type="text" id='message' className="input min-h-8 input-bordered" />
+                        <div className='flex flex-col my-2'>
+                            <label className='font-bold mr-3 text-left'>Message</label>
+                            <textarea className='rounded-md px-3' name="message" />
                         </div>
-                        <div className="form-control mt-6">
-                            <button className="btn btn-primary">Submit</button>
-                        </div>
+                        <input className='btn btn-sm btn-secondary' type="submit" value="Send" />
                     </form>
                 </div>
             </div>

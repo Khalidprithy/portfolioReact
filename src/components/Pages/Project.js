@@ -1,127 +1,66 @@
 import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
+import { CgWebsite } from 'react-icons/cg';
 
 const Project = ({ project }) => {
+
+    const { features } = project;
+
     return (
         <div className="card card-side w-fit bg-primary mx-auto text-white rounded-md">
-            <div class="container max-w-md mx-auto md:px-6 px-4 my-4">
-
-                <div class="border bg-cyan-900 bg-opacity-25 rounded-lg p-6 text-gray-100 relative z-10">
-
-                    <div class="flex flex-wrap items-center">
-
-
-                        <div class="flex w-full h-48 md:h-64 lg:h-72 relative">
-
-                            <div class="w-8/12 pr-4 relative">
-
-
-                                <img src={project.image} class="w-full h-full object-cover object-top rounded-lg bg-white" alt='' />
-
+            <div className="container max-w-md mx-auto md:px-6 px-4 my-4">
+                <div className="border bg-cyan-900 bg-opacity-25 rounded-lg p-6 text-gray-100 relative z-10">
+                    <div className="flex flex-wrap items-center">
+                        <div className="flex w-full h-48 md:h-64 lg:h-72 relative">
+                            <div className="w-8/12 pr-4 relative">
+                                <img src={project.image} className="h-full object-cover object-center rounded-lg bg-white" alt='' />
                             </div>
-
-                            <div class="w-4/12 h-full">
-
-                                <div class="flex flex-col w-full h-full">
-
-                                    <div class="flex-1 pb-2">
-
-                                        <div class="w-full h-full relative">
-
-                                            <img src="https://stackdiary.com/140x100.png" class="absolute top-0 w-full h-full object-cover object-center rounded-lg bg-white" alt='' />
-
+                            <div className="w-4/12 h-full">
+                                <div className="flex flex-col w-full h-full">
+                                    <div className="flex-1 pb-2">
+                                        <div className="w-full h-full relative">
+                                            <img src={project.image2} className="absolute top-0 w-full h-full object-cover object-center rounded-lg bg-white" alt='' />
                                         </div>
-
                                     </div>
-
-                                    <div class="flex-1 pt-2">
-
-                                        <div class="w-full h-full relative">
-
-                                            <img src="https://stackdiary.com/140x100.png" class="absolute top-0 w-full h-full object-cover object-bottom rounded-lg bg-white" alt='' />
-
+                                    <div className="flex-1 pt-2">
+                                        <div className="w-full h-full relative">
+                                            <img src={project.image3} className="absolute top-0 w-full h-full object-cover object-bottom rounded-lg bg-white" alt='' />
                                         </div>
-
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
-
-
-                        <div class="w-full pt-8 flex flex-col justify-between">
-
+                        <div className="w-full pt-8 flex flex-col justify-between">
                             <div>
-
-                                <h2 class="font-bold text-xl">{project.name}</h2>
-
-                                <div class="flex flex-wrap text-center pt-4 mb-2">
-
-
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">React</div>
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">Tailwind CSS</div>
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">DaizyUI</div>
-
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">Next.js</div>
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">Express.js</div>
-                                    <div class="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">MongoDB</div>
+                                <h2 className="font-bold text-xl">{project.name}</h2>
+                                <h4>{project.category}</h4>
+                                <div className="flex flex-wrap text-center pt-4 mb-2">
+                                    {
+                                        features.map(element => <div className="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">{element}</div>
+                                        )
+                                    }
 
                                 </div>
-
-                                <p class="text-xs leading-relaxed text-gray-50">{project.details}</p>
-
-                                <ul class="text-xs text-left mt-4 list-disc list-inside text-gray-50 leading-relaxed">
-
+                                <p className="text-xs leading-relaxed text-gray-50 text-left">{project.details}</p>
+                                <ul className="text-xs text-left mt-4 list-disc list-inside text-gray-50 leading-relaxed">
                                     <li>Responsive</li>
-
                                     <li> Mobile-friendly</li>
-
                                     <li> Media queries</li>
-
-
                                 </ul>
+                            </div>
+                            <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6">
+
+                                <a href={project.live_site} className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                                <a href={project.github_client} className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                                <a href={project.github_server} className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
 
                             </div>
-
-                            <div class="w-full sm:flex-1 grid gap-4 grid-cols-3 pt-6">
-
-                                <button class="w-full block text-center relative text-white font-bold text-sm bg-teal-800 px-4 py-3 rounded-lg shadow-lg hover:shadow-none hover:opacity-75">Live Site</button>
-
-                                <a href="https://stackdiary.com/" class="flex items-center justify-center text-center relative font-bold text-sm bg-gray-200 text-gray-800 px-8 py-3 rounded-lg shadow-lg hover:shadow-none hover:opacity-75">Client</a>
-
-                                <a href="https://stackdiary.com/" class="flex items-center justify-center text-center relative font-bold text-sm bg-gray-200 text-gray-800 px-8 py-3 rounded-lg shadow-lg hover:shadow-none hover:opacity-75">Server</a>
-
-
-
-                            </div>
-
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
-
         </div>
     );
 };
 
 export default Project;
-
-
-/* 
- <figure><img className='image-full' src={project.image} alt="Shoes" /></figure>
-            <div className="p-2 text-left">
-                <h2 className="card-title">{project.name}</h2>
-                <p>{project.details.slice(0, 200)}...</p>
-                <p><span className='font-bold'>Category:</span> {project.category}</p>
-                <p><span className='font-bold'>Features Used:</span> {project.features}</p>
-                <div className='flex mx-auto'>
-                    <a className='font-bold text-accent ml-2' href={project.github_client}>Live Site</a>
-                    <a className='font-bold text-accent ml-2' href={project.github_client}>Client</a>
-                    <a className='font-bold text-accent ml-2' href={project.github_client}>Server</a>
-                </div>
-            </div>
-*/

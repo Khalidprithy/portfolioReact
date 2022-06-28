@@ -6,12 +6,10 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        const url = 'projects.json';
-        fetch(url)
+        fetch(`projects.json`)
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
-
 
     return (
         <div className='bg-primary'>
