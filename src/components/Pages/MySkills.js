@@ -7,7 +7,7 @@ import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
 const MySkills = () => {
     return (
         <div className="min-h-fit md:h-72 mt-0 bg-primary">
-            <h1 className="text-5xl text-neutral mb-6 font-bold">My Skills</h1>
+            <h1 className="text-5xl text-neutral mb-6 pt-4 font-bold">My Skills</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mx-4'>
                 <div className="card w-72 md:w-52 bg-neutral text-neutral-content mx-auto">
                     <div className="card-body items-center text-center">

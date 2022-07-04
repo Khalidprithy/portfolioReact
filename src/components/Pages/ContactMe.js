@@ -17,7 +17,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className="bg-primary min-h-full pt-10 grid grid-cols-1 md:grid-cols-2 ">
+        <div id='#contactMe' className="bg-primary min-h-full pt-10 grid grid-cols-1 md:grid-cols-2 ">
             <div className="text-center p-4 text-neutral lg:text-left mx-auto">
                 <h1 className="text-5xl font-bold">Let's get in touch</h1>
                 <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. I am open to take any kind of challenge and develope new skills</p>
@@ -27,11 +27,11 @@ const ContactMe = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='flex my-2'>
                             <label className='font-bold mr-2'>Name</label>
-                            <input className='rounded-md px-3' type="text" name="user_name" />
+                            <input className='rounded-md px-3' type="text" name="user_name" required />
                         </div>
                         <div className='flex my-2'>
                             <label className='font-bold mr-3'>Email</label>
-                            <input className='rounded-md px-3' type="email" name="user_email" />
+                            <input className='rounded-md px-3' type="email" name="user_email" required />
                         </div>
                         <div className='flex flex-col my-2'>
                             <label className='font-bold mr-3 text-left'>Message</label>

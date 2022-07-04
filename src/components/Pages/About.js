@@ -18,7 +18,7 @@ const About = () => {
                     <div className='my-auto text-neutral'>
                         <p>I am</p>
                         <h1 className="text-5xl font-bold text-accent">Khalid Bin Alam</h1>
-                        <p>Front-end Developer</p>
+                        <p>MERN stack Developer</p>
                         <p className="py-6">I'm a React.js developer. I can help you build your next web application. I am comfortable working with HTML5, CSS3, Bootstrap, Tailwind, React.js. I am also familiar with Node.js, Express.js, MongoDb. </p>
                     </div>
                 </div>
