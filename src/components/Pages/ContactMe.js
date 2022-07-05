@@ -24,19 +24,19 @@ const ContactMe = () => {
                 <h1 className="text-5xl font-bold">Let's get in touch</h1>
                 <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. I am open learn and try something new.</p>
                 <div>
-                    <div class="text pl-3">
-                        <p className='flex items-center gap-2'> <HiLocationMarker></HiLocationMarker> <span>Address:</span> 06 Road, Kaderabar Housing, Mohammodpur, Dhaka</p>
+                    <div class="pl-3">
+                        <p className='flex items-center gap-2'><HiLocationMarker></HiLocationMarker> <span>Address:</span></p>
+                        <p> 06 Road, Kaderabar Housing, Mohammodpur, Dhaka</p>
                     </div>
                     <div class="text pl-3">
                         <p className='flex items-center gap-2'> <HiPhone></HiPhone> <span>Phone:</span> <a href="tel://+8801842502822">+ 88 01842502822</a></p>
                     </div>
                     <div class="text pl-3">
-                        <p className='flex items-center gap-2'> <HiOutlineMail></HiOutlineMail> <span>Email:</span> <a href="mailto:khalidprithy@gmail.com">khalidprithy@gmail</a></p>
+                        <p className='flex items-center gap-2'> <HiOutlineMail></HiOutlineMail> <span>Email:</span> <a href="mailto:khalidprithy@gmail.com">khalidprithy@gmail.com</a></p>
                     </div>
-
                 </div>
             </div>
-            <div className="card md:w-96 flex-shrink-0 mx-auto px-4 m-4 shadow-2xl bg-neutral">
+            <div className="card w-80 md:w-96 flex-shrink-0 mx-auto px-4 m-4 shadow-2xl bg-neutral">
                 <div className="card-body">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='flex my-2'>
