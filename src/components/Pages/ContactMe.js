@@ -26,7 +26,7 @@ const ContactMe = () => {
                 <div>
                     <div class="pl-3">
                         <p className='flex items-center gap-2'><HiLocationMarker></HiLocationMarker> <span>Address:</span></p>
-                        <p> 06 Road, Kaderabar Housing, Mohammodpur, Dhaka</p>
+                        <p>Mohammodpur, Dhaka</p>
                     </div>
                     <div class="text pl-3">
                         <p className='flex items-center gap-2'> <HiPhone></HiPhone> <span>Phone:</span> <a href="tel://+8801842502822">+ 88 01842502822</a></p>
