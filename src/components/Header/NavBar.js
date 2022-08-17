@@ -41,7 +41,7 @@ const NavBar = () => {
                     </a>
                 </div>
 
-                <a href='https://drive.google.com/file/d/1Gy9qYOA3UzY77SEGyhu3unkHq28VotTb/view?usp=sharing' rel="noreferrer" className="btn btn-sm bg-secondary text-base-100 border-0 rounded-md bg-orange-400 hover:bg-orange-600" target="_blank" download>Resume<BiDownload className='ml-2'></BiDownload>
+                <a href='https://drive.google.com/file/d/1Gy9qYOA3UzY77SEGyhu3unkHq28VotTb/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600" target="_blank" download>Resume<BiDownload className='ml-2'></BiDownload>
                 </a>
             </div>
         </div>
