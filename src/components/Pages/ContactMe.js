@@ -25,7 +25,7 @@ const ContactMe = () => {
                 <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. I am open learn and try something new.</p>
                 <div>
                     <div class="text pl-3">
-                        <p className='flex items-center gap-2'> <HiLocationMarker></HiLocationMarker> <span>Address:</span> <a href="https://www.google.com.bd/maps/@23.754744,90.359015,16z?hl=en">Mohammodpur, Dhaka</a></p>
+                        <p className='flex items-center gap-2'> <HiLocationMarker></HiLocationMarker> <span>Address:</span> <a href="https://www.google.com.bd/maps/dir/23.755121,90.3600549//@23.7550124,90.3603433,20z/data=!4m2!4m1!3e0?hl=en" target="_blank" rel="noreferrer">Mohammodpur, Dhaka</a></p>
                     </div>
                     <div class="text pl-3">
                         <p className='flex items-center gap-2'> <HiPhone></HiPhone> <span>Phone:</span> <a href="tel://+8801842502822">+ 88 01842502822</a></p>
