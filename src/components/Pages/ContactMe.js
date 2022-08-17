@@ -24,9 +24,8 @@ const ContactMe = () => {
                 <h1 className="text-5xl font-bold">Let's get in touch</h1>
                 <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. I am open learn and try something new.</p>
                 <div>
-                    <div class="pl-3">
-                        <p className='flex items-center gap-2'><HiLocationMarker></HiLocationMarker> <span>Address:</span></p>
-                        <p>Mohammodpur, Dhaka</p>
+                    <div class="text pl-3">
+                        <p className='flex items-center gap-2'> <HiLocationMarker></HiLocationMarker> <span>Address:</span> <a href="https://www.google.com.bd/maps/@23.754744,90.359015,16z?hl=en">Mohammodpur, Dhaka</a></p>
                     </div>
                     <div class="text pl-3">
                         <p className='flex items-center gap-2'> <HiPhone></HiPhone> <span>Phone:</span> <a href="tel://+8801842502822">+ 88 01842502822</a></p>
