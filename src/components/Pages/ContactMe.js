@@ -40,11 +40,11 @@ const ContactMe = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='flex my-2'>
                             <label className='font-bold mr-2'>Name</label>
-                            <input className='rounded-md px-3' type="text" name="user_name" required />
+                            <input className='rounded-md px-3' type="text" name="user_name" required autocomplete="off" />
                         </div>
                         <div className='flex my-2'>
                             <label className='font-bold mr-3'>Email</label>
-                            <input className='rounded-md px-3' type="email" name="user_email" required />
+                            <input className='rounded-md px-3' type="email" name="user_email" required autocomplete="off" />
                         </div>
                         <div className='flex flex-col my-2'>
                             <label className='font-bold mr-3 text-left'>Message</label>
