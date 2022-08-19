@@ -35,20 +35,20 @@ const ContactMe = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-80 md:w-96 flex-shrink-0 mx-auto px-4 m-4 shadow-2xl bg-neutral">
-                <div className="card-body">
+            <div className="card w-72 md:w-96 flex-shrink-0 mx-auto m-4 shadow-2xl bg-neutral">
+                <div className="px-4 mt-4">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='flex my-2'>
                             <label className='font-bold mr-2'>Name</label>
-                            <input className='rounded-md px-3' type="text" name="user_name" required autocomplete="off" />
+                            <input className='rounded-md px-3 w-full' type="text" name="user_name" required autocomplete="off" />
                         </div>
                         <div className='flex my-2'>
                             <label className='font-bold mr-3'>Email</label>
-                            <input className='rounded-md px-3' type="email" name="user_email" required autocomplete="off" />
+                            <input className='rounded-md px-3 w-full' type="email" name="user_email" required autocomplete="off" />
                         </div>
                         <div className='flex flex-col my-2'>
                             <label className='font-bold mr-3 text-left'>Message</label>
-                            <textarea className='rounded-md px-3' name="message" />
+                            <textarea className='rounded-md px-3 mt-2' name="message" />
                         </div>
                         <input className='btn btn-sm btn-secondary' type="submit" value="Send" />
                     </form>
