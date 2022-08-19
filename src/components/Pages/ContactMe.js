@@ -48,9 +48,9 @@ const ContactMe = () => {
                         </div>
                         <div className='flex flex-col my-2'>
                             <label className='font-bold mr-3 text-left'>Message</label>
-                            <textarea className='rounded-md px-3 mt-2' name="message" />
+                            <textarea className='rounded-md px-3 mt-1' name="message" />
                         </div>
-                        <input className='btn btn-sm btn-secondary' type="submit" value="Send" />
+                        <input className='btn btn-sm btn-secondary mb-2' type="submit" value="Send" />
                     </form>
                 </div>
             </div>

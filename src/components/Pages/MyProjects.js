@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const MyProjects = () => {
     return (
         <div className='bg-primary'>
-            <h4 className="text-5xl text-neutral font-bold mb-6">My Projects</h4>
+            <h4 className="text-5xl text-neutral font-bold mb-6 pt-4">My Projects</h4>
             <Link className='btn btn-sm btn-accent' to='/projects'>See All Projects</Link>
             <div className="hero min-h-fit md:h-96 lg:h-64 px-2 md:px-10 lg:px-20">
                 <div className="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
