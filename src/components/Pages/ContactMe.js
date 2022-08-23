@@ -19,7 +19,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div id='#contactMe' className="bg-primary min-h-full pt-10 grid grid-cols-1 md:grid-cols-2 px-10 lg:px-20">
+        <div id='contactMe' className="bg-primary min-h-full pt-10 grid grid-cols-1 md:grid-cols-2 px-10 lg:px-20">
             <div className="text-center p-4 text-neutral lg:text-left mx-auto">
                 <h1 className="text-5xl font-bold">Let's get in touch</h1>
                 <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. I am open learn and try something new.</p>

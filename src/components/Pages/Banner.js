@@ -8,10 +8,6 @@ const Banner = () => {
         navigate('/about')
     }
 
-    const handleHireMe = () => {
-        navigate('/#contactMe')
-    }
-
 
     return (
         <div className="h-96 mt-0 bg-primary">
@@ -20,9 +16,9 @@ const Banner = () => {
                     <p>Hello There</p>
                     <h1 className="text-8xl font-bold text-center">I'm Khalid</h1>
                     <p className="py-6">MERN stack Developer. I have experience building web applications with React, Node.js, Express.js, MongoDB</p>
-                    <button
-                        onClick={handleHireMe}
-                        className="btn btn-sm btn-secondary text-white">Hire Me</button>
+                    <a
+                        href='#contactMe'
+                        className="btn btn-sm btn-secondary text-white">Hire Me</a>
                     <button
                         onClick={handleLearnMore}
                         className="btn btn-sm btn-accent text-white ml-2">Learn More</button>

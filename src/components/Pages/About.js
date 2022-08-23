@@ -12,7 +12,7 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-6">
                     <div className="avatar">
                         <div className="w-48 md:w-72 lg:w-96 rounded-full mx-auto">
-                            <img src="https://i.ibb.co/2hgDgtK/20200806-181214-01.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='boy' />
+                            <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='boy' />
                         </div>
                     </div>
                     <div className='my-auto text-neutral'>
