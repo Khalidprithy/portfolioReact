@@ -29,7 +29,7 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="navbar-center">
-                <a className="btn btn-ghost text-base-100 normal-case text-2xl" href='/#home'>Dev.Kbin</a>
+                <a className="btn btn-ghost text-accent normal-case text-3xl" href='/#home'>Dev.Kbin</a>
             </div>
             <div className="navbar-end">
                 <div className='flex'>
